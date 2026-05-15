@@ -65,3 +65,6 @@ Media Assets:
 Cover image: cover.png
 Board screenshot: screenshots/screenshot-board.png
 Game-only page: https://chessrevamped.com/game-only.html
+
+Itch.io Page:
+https://lisacelic.itch.io/chess-revamped

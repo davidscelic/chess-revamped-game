@@ -43,3 +43,6 @@ Planned Improvements:
 
 Distribution:
 - Submitted Basic Launch version to CrazyGames for review.
+
+Distribution:
+- Published Chess Revamped on itch.io as a browser-playable HTML5 game.
