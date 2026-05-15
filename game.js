@@ -33,8 +33,8 @@ let timerInterval;
 let playerRating = Number(localStorage.getItem("chessRevampedRating")) || 1000;
 
 const symbols = {
-  wp: "♙", wr: "♖", wn: "♘", wb: "♗", wq: "♕", wk: "♔",
-  bp: "♟", br: "♜", bn: "♞", bb: "♝", bq: "♛", bk: "♚"
+  wp: "♙︎", wr: "♖︎", wn: "♘︎", wb: "♗︎", wq: "♕︎", wk: "♔︎",
+  bp: "♟︎", br: "♜︎", bn: "♞︎", bb: "♝︎", bq: "♛︎", bk: "♚︎"
 };
 
 const standardNames = {

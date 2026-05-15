@@ -1,0 +1,16 @@
+Chess Revamped Bug List
+
+Bug 1:
+What I clicked:
+What happened:
+What should have happened:
+
+Bug 2:
+What I clicked:
+What happened:
+What should have happened:
+
+Bug 3:
+What I clicked:
+What happened:
+What should have happened:

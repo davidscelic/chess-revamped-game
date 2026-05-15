@@ -1,0 +1,36 @@
+Chess Revamped Launch Checklist
+
+Local Game:
+[ ] Game loads
+[ ] Board appears before side selection
+[ ] White side works
+[ ] Black side works
+[ ] Random side works
+[ ] Timer works
+[ ] AI moves correctly
+[ ] Pawn forward capture works
+[ ] Promotion works
+[ ] Check/checkmate works
+[ ] Undo works
+[ ] Mobile layout acceptable
+
+Website:
+[ ] Header links work
+[ ] Footer links work
+[ ] Rules page works
+[ ] Strategy page works
+[ ] About page works
+[ ] Privacy page works
+[ ] Terms page works
+[ ] Ad placeholders visible but not annoying
+
+Before Publishing:
+[ ] Create final domain name
+[ ] Create GitHub repository
+[ ] Upload files
+[ ] Connect to Cloudflare Pages
+[ ] Test live site
+[ ] Add favicon/logo later
+[ ] Add analytics later
+[ ] Apply for AdSense later
+[ ] Submit to game portals later

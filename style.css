@@ -42,6 +42,23 @@ a:hover {
 .logo {
   font-weight: bold;
   font-size: 22px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.logo-mark {
+  background: #facc15;
+  color: #111827;
+  width: 32px;
+  height: 32px;
+  border-radius: 8px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, sans-serif;
+  font-weight: 700;
+  font-size: 13px;
 }
 
 .main-nav a {

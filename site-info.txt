@@ -1,0 +1,27 @@
+Chess Revamped Site Info
+
+Official Domain:
+https://chessrevamped.com
+
+WWW Domain:
+https://www.chessrevamped.com
+
+Temporary Cloudflare URL:
+PASTE YOUR .pages.dev LINK HERE
+
+GitHub Repository:
+PASTE YOUR GITHUB REPO LINK HERE
+
+Current status:
+Live official domain is connected.
+
+Next steps:
+[ ] Final mobile testing
+[ ] Update social preview metadata with official domain
+[ ] Add sitemap.xml
+[ ] Add robots.txt
+[ ] Submit to Google Search Console
+[ ] Add more content pages
+[ ] Add analytics later
+[ ] Apply for AdSense later
+[ ] Submit to game portals later
