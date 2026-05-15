@@ -95,15 +95,6 @@ a:hover {
   max-width: 780px;
 }
 
-.hero-cover {
-  display: block;
-  max-width: 520px;
-  width: 100%;
-  margin: 24px auto;
-  border-radius: 16px;
-  box-shadow: 0 8px 24px rgba(0,0,0,0.35);
-}
-
 .play-button {
   display: inline-block;
   background: #facc15;
@@ -435,14 +426,6 @@ button:hover {
   line-height: 1.5;
 }
 
-.hero-cover {
-  display: block;
-  max-width: 720px;
-  width: 92%;
-  margin: 24px auto 18px;
-  border-radius: 16px;
-  box-shadow: 0 8px 24px rgba(0,0,0,0.35);
-}
 
 .hero-content {
   max-width: 950px;
@@ -450,4 +433,19 @@ button:hover {
 
 .play-button {
   margin-top: 4px;
+}
+
+.hero-cover {
+  display: block !important;
+  width: 100% !important;
+  max-width: 620px !important;
+  height: auto !important;
+  margin: 24px auto 18px auto !important;
+  border-radius: 16px !important;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.35) !important;
+}
+
+.hero-content {
+  max-width: 950px !important;
+  margin: 0 auto !important;
 }
