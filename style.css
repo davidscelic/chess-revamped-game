@@ -434,3 +434,20 @@ button:hover {
   color: #e5e7eb;
   line-height: 1.5;
 }
+
+.hero-cover {
+  display: block;
+  max-width: 720px;
+  width: 92%;
+  margin: 24px auto 18px;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.35);
+}
+
+.hero-content {
+  max-width: 950px;
+}
+
+.play-button {
+  margin-top: 4px;
+}
