@@ -699,3 +699,39 @@ button:hover {
     border-radius: 12px !important;
   }
 }
+.hero-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+  flex-wrap: wrap;
+  margin-top: 18px;
+}
+
+.secondary-button {
+  display: inline-block;
+  background: transparent;
+  color: #facc15;
+  border: 2px solid #facc15;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.secondary-button:hover {
+  background: #facc15;
+  color: #111827;
+}
+
+@media (max-width: 760px) {
+  .hero-buttons {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .hero-buttons a {
+    width: 100%;
+    max-width: 260px;
+    text-align: center;
+  }
+}
