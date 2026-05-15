@@ -220,6 +220,8 @@ button:hover {
   cursor: pointer;
   position: relative;
   user-select: none;
+  font-family: "Times New Roman", "DejaVu Serif", serif;
+  font-variant-emoji: text;
 }
 
 .selected {
@@ -355,10 +357,12 @@ button:hover {
   }
 
   .square {
-    width: 40px;
-    height: 40px;
-    font-size: 30px;
-  }
+  width: 40px;
+  height: 40px;
+  font-size: 30px;
+  font-family: "Times New Roman", "DejaVu Serif", serif;
+  font-variant-emoji: text;
+}
 
   .side-panel {
     width: 140px;
