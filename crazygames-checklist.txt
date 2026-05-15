@@ -49,6 +49,11 @@ Things to check before submitting:
 [x] Screenshot is available
 [x] Portal upload package created
 [x] Portal upload package tested
+Submission Status:
+[x] Submitted to CrazyGames for approval
+[ ] Approved
+[ ] Changes requested
+[ ] Rejected
 
 Known limitations to mention if needed:
 - Online multiplayer is not available yet

@@ -40,3 +40,6 @@ Planned Improvements:
 - More strategy content
 - More puzzle or challenge modes
 - Game portal integration
+
+Distribution:
+- Submitted Basic Launch version to CrazyGames for review.
