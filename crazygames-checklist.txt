@@ -1,0 +1,61 @@
+CrazyGames Checklist for Chess Revamped
+
+Game:
+Chess Revamped
+
+Current Game URL:
+https://chessrevamped.com/game-only.html
+
+Game Type:
+HTML5 browser game using HTML, CSS, and JavaScript.
+
+Current Readiness:
+[x] Game is playable in browser
+[x] Game has a game-only page
+[x] Game works without accounts
+[x] Game works without downloads
+[x] Game has mobile layout support
+[x] File size is very small
+[x] Uses relative local files
+[x] Has cover image
+[x] Has screenshot assets
+[x] Has submission text ready
+
+Files likely needed for upload package:
+- game-only.html
+- style.css
+- game.js
+- favicon.svg
+- cover.png
+
+Optional/supporting files:
+- screenshots/screenshot-board.png
+- submission-package.txt
+- version-notes.txt
+
+Things to check before submitting:
+[ ] Game-only page has no broken links
+[ ] Game-only page works from a local folder
+[ ] Game can start on desktop
+[ ] Game can start on mobile
+[ ] AI move works
+[ ] Restart works
+[ ] Undo works
+[ ] Promotion works
+[ ] Check/checkmate message works
+[ ] No console errors during normal play
+[ ] Mobile board does not overflow
+[ ] Cover image is available
+[ ] Screenshot is available
+
+Known limitations to mention if needed:
+- Online multiplayer is not available yet
+- AI rating is Elo-style practice difficulty, not official chess rating
+- Some mobile devices may render Unicode chess pieces differently
+- Daily timers are experimental
+
+CrazyGames notes:
+- Basic HTML5 games can be submitted through the CrazyGames Developer Portal.
+- CrazyGames monetization uses their ad revenue share system.
+- Ads should use the CrazyGames SDK when monetizing on CrazyGames.
+- A full SDK integration can be added later if required.
