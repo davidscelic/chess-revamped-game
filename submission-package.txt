@@ -1,4 +1,13 @@
-Chess Revamped Portal Prep
+Chess Revamped Submission Package
+
+Game Title:
+Chess Revamped
+
+Website:
+https://chessrevamped.com
+
+Game-Only URL:
+https://chessrevamped.com/game-only.html
 
 Short Description:
 Play a tactical chess variant where the king moves like a queen, pawns capture forward, and you can practice against Elo-style AI.
@@ -18,14 +27,37 @@ Main Features:
 - Standard or Turkish-style piece names
 - Play instantly in the browser
 
-Portal Readiness Checklist:
-[ ] Mobile piece rendering improved
-[ ] Game loading screen cleaned up
-[x] Cover image created
-[x] Screenshots taken
-[ ] Portal-specific game-only build created
-[ ] CrazyGames requirements reviewed
-[ ] Poki requirements reviewed later
-[ ] itch.io page prepared
-[ ] Newgrounds page prepared
-[x] Submission package created
+Genre:
+Board Game
+Strategy
+Chess Variant
+Puzzle Strategy
+
+Tags:
+chess
+strategy
+board game
+chess variant
+ai game
+browser game
+tactical game
+logic game
+
+Controls:
+Click or tap a piece to select it.
+Click or tap a highlighted square to move.
+Choose your side before starting the game.
+
+Recommended Age:
+All ages
+
+Current Monetization Plan:
+Website ads later
+Game portal ad revenue share later
+Affiliate links later
+Premium features later if the game gets traction
+
+Notes:
+The Elo-style AI levels are practice difficulty levels, not official chess ratings.
+The game currently supports single-player AI and local human-vs-human play.
+Online multiplayer is planned for the future.
