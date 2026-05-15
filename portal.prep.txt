@@ -23,7 +23,7 @@ Portal Readiness Checklist:
 [ ] Game loading screen cleaned up
 [x] Cover image created
 [x] Screenshots taken
-[ ] Portal-specific game-only build created
+[x] Portal-specific game-only build created
 [ ] CrazyGames requirements reviewed
 [ ] Poki requirements reviewed later
 [ ] itch.io page prepared

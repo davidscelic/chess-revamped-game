@@ -449,3 +449,209 @@ button:hover {
   max-width: 950px !important;
   margin: 0 auto !important;
 }
+
+/* Mobile polish for Chess Revamped */
+
+@media (max-width: 760px) {
+  body {
+    padding: 0;
+    overflow-x: hidden;
+  }
+
+  main {
+    padding: 0 10px 24px;
+  }
+
+  .site-header {
+    position: static;
+  }
+
+  .header-inner {
+    justify-content: center;
+    text-align: center;
+    padding: 12px 10px;
+  }
+
+  .logo {
+    justify-content: center;
+    width: 100%;
+  }
+
+  .main-nav {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 8px;
+  }
+
+  .main-nav a {
+    margin: 0;
+    font-size: 13px;
+  }
+
+  .hero-section {
+    padding: 32px 12px;
+  }
+
+  .hero-section h1 {
+    font-size: 34px;
+    line-height: 1.1;
+  }
+
+  .subtitle {
+    font-size: 15px;
+  }
+
+  .hero-cover {
+    max-width: 340px !important;
+    width: 100% !important;
+    margin: 18px auto 16px !important;
+  }
+
+  .top-panel {
+    padding: 12px;
+    margin: 14px auto;
+  }
+
+  .control-group {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 6px;
+    margin: 8px 0;
+  }
+
+  .control-group label {
+    margin: 0;
+    text-align: left;
+    font-weight: bold;
+  }
+
+  .control-group select,
+  .control-group button {
+    width: 100%;
+    min-height: 42px;
+    font-size: 15px;
+  }
+
+  .rating-box {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .rating-box span {
+    margin: 0;
+  }
+
+  .clock-row {
+    gap: 8px;
+    margin-top: 12px;
+  }
+
+  .clock {
+    padding: 8px 10px;
+    font-size: 15px;
+  }
+
+  #turn {
+    width: 100%;
+    font-size: 18px;
+    order: -1;
+  }
+
+  #message {
+    padding: 0 10px;
+    font-size: 14px;
+  }
+
+  .game-layout {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+  }
+
+  #board {
+    order: 1;
+    width: min(92vw, 360px);
+    height: min(92vw, 360px);
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+  }
+
+  .square {
+    width: auto;
+    height: auto;
+    font-size: clamp(26px, 8vw, 36px);
+  }
+
+  .side-panel {
+    order: 2;
+    width: min(92vw, 360px);
+    min-height: auto;
+  }
+
+  .side-panel h3 {
+    margin-bottom: 6px;
+  }
+
+  .captured {
+    font-size: 24px;
+    min-height: 28px;
+  }
+
+  .info-layout {
+    margin: 14px auto;
+    gap: 14px;
+  }
+
+  .rules-box,
+  .tips-box,
+  .content-section,
+  .history-box {
+    padding: 14px;
+    border-radius: 12px;
+  }
+
+  .rules-box,
+  .tips-box {
+    width: 100%;
+  }
+
+  .content-section {
+    font-size: 15px;
+  }
+
+  .content-section h1 {
+    font-size: 28px;
+  }
+
+  .content-section h2 {
+    font-size: 22px;
+  }
+
+  .ad-placeholder {
+    width: 100%;
+    min-height: 60px;
+    margin: 14px auto;
+  }
+
+  .site-footer {
+    font-size: 14px;
+  }
+
+  .game-only-main {
+    padding: 12px 10px 24px;
+  }
+
+  .game-only-hero {
+    padding: 18px 12px;
+  }
+
+  .game-only-hero h1 {
+    font-size: 32px;
+  }
+}

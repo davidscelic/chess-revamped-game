@@ -61,3 +61,7 @@ Notes:
 The Elo-style AI levels are practice difficulty levels, not official chess ratings.
 The game currently supports single-player AI and local human-vs-human play.
 Online multiplayer is planned for the future.
+Media Assets:
+Cover image: cover.png
+Board screenshot: screenshots/screenshot-board.png
+Game-only page: https://chessrevamped.com/game-only.html
