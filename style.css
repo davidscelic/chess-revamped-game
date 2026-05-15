@@ -655,3 +655,47 @@ button:hover {
     font-size: 32px;
   }
 }
+
+/* Hard mobile cover fix */
+.hero-section {
+  overflow: hidden;
+}
+
+.hero-content {
+  width: 100%;
+  max-width: 950px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.hero-cover {
+  display: block !important;
+  width: min(92vw, 620px) !important;
+  max-width: 100% !important;
+  height: auto !important;
+  margin: 24px auto 18px auto !important;
+  border-radius: 16px !important;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.35) !important;
+}
+
+@media (max-width: 760px) {
+  .hero-section {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    overflow: hidden !important;
+  }
+
+  .hero-content {
+    width: 100% !important;
+    max-width: 100% !important;
+    overflow: hidden !important;
+  }
+
+  .hero-cover {
+    width: 100% !important;
+    max-width: 280px !important;
+    height: auto !important;
+    margin: 16px auto 14px auto !important;
+    border-radius: 12px !important;
+  }
+}
