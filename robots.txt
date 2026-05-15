@@ -1,3 +1,4 @@
+# Chess Revamped robots.txt
 User-agent: *
 Allow: /
 
