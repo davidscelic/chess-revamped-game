@@ -34,19 +34,21 @@ Optional/supporting files:
 - version-notes.txt
 
 Things to check before submitting:
-[ ] Game-only page has no broken links
+[x] Game-only page has no broken links
 [ ] Game-only page works from a local folder
-[ ] Game can start on desktop
+[x] Game can start on desktop
 [ ] Game can start on mobile
-[ ] AI move works
-[ ] Restart works
-[ ] Undo works
+[x] AI move works
+[x] Restart works
+[x] Undo works
 [ ] Promotion works
 [ ] Check/checkmate message works
 [ ] No console errors during normal play
-[ ] Mobile board does not overflow
-[ ] Cover image is available
-[ ] Screenshot is available
+[x] Mobile board does not overflow
+[x] Cover image is available
+[x] Screenshot is available
+[x] Portal upload package created
+[x] Portal upload package tested
 
 Known limitations to mention if needed:
 - Online multiplayer is not available yet

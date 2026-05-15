@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Chess Revamped Game</title>
+  <meta name="description" content="Play Chess Revamped, a tactical chess variant with Elo-style AI, changed king and queen movement, and forward-capturing pawns.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="game-only-page">
+
+  <main class="game-only-main">
+
+    <section class="game-only-hero">
+      <h1>Chess Revamped</h1>
+      <p>
+        A tactical chess variant where the king moves like the old queen,
+        the queen moves like the old king, and pawns can capture forward.
+      </p>
+    </section>
+
+    <section id="play" class="game-section">
+
+      <div class="top-panel">
+
+        <div class="control-group">
+          <label>
+            Game Mode:
+            <select id="gameMode" onchange="restartGame()">
+              <option value="ai">Human vs AI</option>
+              <option value="human">Human vs Human</option>
+            </select>
+          </label>
+
+          <label>
+            Your Side:
+            <select id="playerColor" onchange="handleSideSelection()">
+              <option value="" selected>Choose Side</option>
+              <option value="white">White</option>
+              <option value="black">Black</option>
+            </select>
+          </label>
+
+          <button onclick="randomizePlayerSide()">Random Side</button>
+        </div>
+
+        <div class="control-group">
+          <label>
+            AI Strength:
+            <select id="aiElo" onchange="updateRatingDisplay()"></select>
+          </label>
+
+          <label>
+            Time:
+            <select id="timeControl" onchange="restartGame()">
+              <option value="60|0">Bullet 1+0</option>
+              <option value="60|1">Bullet 1+1</option>
+              <option value="120|1">Bullet 2+1</option>
+              <option value="180|0">Blitz 3+0</option>
+              <option value="180|2">Blitz 3+2</option>
+              <option value="300|0" selected>Blitz 5+0</option>
+              <option value="300|3">Blitz 5+3</option>
+              <option value="600|0">Rapid 10+0</option>
+              <option value="600|5">Rapid 10+5</option>
+              <option value="900|10">Rapid 15+10</option>
+              <option value="1800|0">Rapid 30+0</option>
+              <option value="86400|0">Daily 1 day</option>
+              <option value="259200|0">Daily 3 days</option>
+              <option value="604800|0">Daily 7 days</option>
+            </select>
+          </label>
+
+          <label>
+            Piece Names:
+            <select id="pieceLanguage" onchange="updateLanguageDisplay()">
+              <option value="standard" selected>Standard</option>
+              <option value="turkish">Turkish</option>
+            </select>
+          </label>
+        </div>
+
+        <div class="control-group">
+          <label>
+            Board Theme:
+            <select id="boardTheme" onchange="setBoardTheme()">
+              <option value="green" selected>Classic Green</option>
+              <option value="brown">Wood Brown</option>
+              <option value="blue">Ocean Blue</option>
+              <option value="red">Royal Red</option>
+              <option value="gray">Slate Gray</option>
+              <option value="purple">Purple Night</option>
+            </select>
+          </label>
+
+          <button onclick="restartGame()">Restart</button>
+          <button onclick="undoMove()">Undo</button>
+        </div>
+
+        <div class="rating-box">
+          <span id="ratingDisplay">Your Rating: 1000</span>
+          <span id="aiRatingDisplay">AI: 1200</span>
+        </div>
+
+      </div>
+
+      <div class="clock-row">
+        <div id="whiteClock" class="clock">White: 05:00</div>
+        <div id="turn">Choose your side</div>
+        <div id="blackClock" class="clock">Black: 05:00</div>
+      </div>
+
+      <div id="message"></div>
+
+      <div class="game-layout">
+
+        <aside class="side-panel">
+          <h3>Captured White</h3>
+          <div id="capturedWhite" class="captured"></div>
+        </aside>
+
+        <div id="board"></div>
+
+        <aside class="side-panel">
+          <h3>Captured Black</h3>
+          <div id="capturedBlack" class="captured"></div>
+        </aside>
+
+      </div>
+
+    </section>
+
+    <section class="info-layout">
+
+      <div class="rules-box">
+        <h3>Quick Rules</h3>
+        <div id="rulesText"></div>
+      </div>
+
+      <div class="tips-box">
+        <h3>Tips</h3>
+        <div id="tipText"></div>
+        <button onclick="showRandomTip()">New Tip</button>
+      </div>
+
+    </section>
+
+    <section class="history-box">
+      <h3>Move History</h3>
+      <ol id="moveHistory"></ol>
+    </section>
+
+  </main>
+
+  <script src="game.js"></script>
+
+</body>
+</html>
