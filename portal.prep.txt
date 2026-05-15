@@ -1,0 +1,30 @@
+Chess Revamped Portal Prep
+
+Short Description:
+Play a tactical chess variant where the king moves like a queen, pawns capture forward, and you can practice against Elo-style AI.
+
+Long Description:
+Chess Revamped is a browser-based chess variant with a fresh tactical twist. The king remains the royal piece, but it moves like the old queen. The queen moves like the old king, pawns can capture forward, and castling and en passant are removed. Play against Elo-style AI levels from 200 to 2500, choose your side, try different time controls, and learn a new strategy built around a powerful but vulnerable royal piece.
+
+Main Features:
+- New chess variant rules
+- King moves like the old queen
+- Queen moves like the old king
+- Pawns can capture forward
+- No castling
+- No en passant
+- Elo-style AI from 200 to 2500
+- Bullet, Blitz, Rapid, and Daily-style timers
+- Standard or Turkish-style piece names
+- Play instantly in the browser
+
+Portal Readiness Checklist:
+[ ] Mobile piece rendering improved
+[ ] Game loading screen cleaned up
+[ ] Cover image created
+[ ] Screenshots taken
+[ ] Portal-specific game-only build created
+[ ] CrazyGames requirements reviewed
+[ ] Poki requirements reviewed later
+[ ] itch.io page prepared
+[ ] Newgrounds page prepared
