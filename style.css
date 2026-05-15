@@ -394,3 +394,34 @@ button:hover {
     min-height: 70px;
   }
 }
+.game-only-page {
+  background: #f3f4f6;
+}
+
+.game-only-main {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 20px 16px 30px;
+}
+
+.game-only-hero {
+  max-width: 900px;
+  margin: 0 auto 20px;
+  padding: 24px 18px;
+  background: #111827;
+  color: white;
+  border-radius: 14px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.18);
+}
+
+.game-only-hero h1 {
+  margin: 0 0 10px;
+  font-size: 38px;
+}
+
+.game-only-hero p {
+  margin: 0 auto;
+  max-width: 760px;
+  color: #e5e7eb;
+  line-height: 1.5;
+}
