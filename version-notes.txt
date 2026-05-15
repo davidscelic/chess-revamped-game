@@ -1,0 +1,42 @@
+Chess Revamped Version Notes
+
+Version: 0.1 Beta
+Date: May 2026
+
+Current Features:
+- Playable browser chess variant
+- Human vs AI mode
+- Human vs Human local mode
+- Elo-style AI levels from 200 to 2500
+- Choose white or black
+- Random side option
+- Timers for Bullet, Blitz, Rapid, and Daily-style play
+- Local rating stored in browser
+- Standard and Turkish piece name options
+- Multiple board themes
+- Legal move highlighting
+- Capture highlighting
+- Check, checkmate, stalemate, draw detection
+- Pawn promotion
+- Move history
+- Captured pieces display
+- Mobile responsive layout
+- Game-only page for portal submission
+
+Known Limitations:
+- Online multiplayer is not available yet
+- AI ratings are practice difficulty levels, not official chess ratings
+- Some mobile devices may render Unicode chess pieces differently
+- Daily timers are experimental for browser-only play
+- No user accounts
+- No cloud saving
+- No leaderboard yet
+
+Planned Improvements:
+- Cleaner custom chess piece graphics
+- Better mobile piece rendering
+- Online multiplayer
+- Leaderboards
+- More strategy content
+- More puzzle or challenge modes
+- Game portal integration

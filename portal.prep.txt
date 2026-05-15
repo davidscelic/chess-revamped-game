@@ -19,7 +19,7 @@ Main Features:
 - Play instantly in the browser
 
 Portal Readiness Checklist:
-[ ] Mobile piece rendering improved
+[x] Mobile piece rendering improved
 [ ] Game loading screen cleaned up
 [x] Cover image created
 [x] Screenshots taken
