@@ -678,6 +678,7 @@ button:hover {
   box-shadow: 0 8px 24px rgba(0,0,0,0.35) !important;
 }
 
+
 @media (max-width: 760px) {
   .hero-section {
     padding-left: 10px !important;

@@ -46,3 +46,5 @@ Distribution:
 
 Distribution:
 - Published Chess Revamped on itch.io as a browser-playable HTML5 game.
+Itch.io Page:
+https://lisacelic.itch.io/chess-revamped
